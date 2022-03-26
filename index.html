@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>council engagement?</title>
+	<link rel="stylesheet" href="./main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="intro">
+		Hi everyone ^^
+		<br>
+		use the buttons below to see the number of <b>comments</b> or <b>commenters</b> on your posts :D
+		<br>
+		u can search for your ig handle or just use your name if you don't use ig
+	</div>	
+
+	<!-- what a pain in the ass to code -jon koh 25/3/22 -->
+	<!-- hi! :D -->
+
+	<div class="buttons">
+		<button class="buttonz" onclick="getData('sch')">School</button>
+		<button class="buttonz" onclick="moob()">Clear</button>
+
+		<button class="buttonz" onclick="getData('apollo')">Apollo</button>
+		<button class="buttonz" onclick="getData('ares')">Ares</button>
+		<button class="buttonz" onclick="getData('artemis')">Artemis</button>
+		<button class="buttonz" onclick="getData('athena')">Athena</button>
+
+	</div>
+	
+	<div class="main" id="main">
+		<div id="error" style="display:none">woah</div>
+		<div class="heading" id="insertHere">
+			<span><b>Name</b></span>
+			<span><b>Comments</b></span>
+			<span><b>Commenters</b></span>
+		</div>
+		<!-- <div class="data" id="dataArea">
+			<span>-</span>
+			<span>-</span>
+			<span>-</span>
+		</div> -->
+	</div>
+
+ 	<script type="text/javascript" src="./main.js"></script>
+</body>
+</html>

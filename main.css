@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+html, body {
+	margin: 0;
+}
+body {
+	font-family: Poppins, sans-serif;
+	margin-top: 10vh;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	background-color: #FFF;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+@media only screen and (max-width: 425px) {
+	.intro {
+		font-family: Poppins, Sans-serif;
+		font-size: 1em;
+		font-weight: 600;
+		letter-spacing: 0px;
+		color: #000000;
+		opacity: 1;
+		margin-bottom: 5vh;
+		width: 90vw;
+	}
+	.buttons {
+		width: 90vw;
+	}
+	.buttonz {
+		color: #FFF;
+		font-family: Poppins, sans-serif;
+		font-size: 1em;
+		width: 40vw;
+		float: left;
+		padding: 10px;
+		margin-bottom: 1vh;
+		border: 0;
+		/*grey*/
+		background-color: #C3B1E1;
+		border-radius: 10px;
+	}
+	.main {
+		margin-top: 5vh;
+		margin-bottom: 5vh;
+		width: 90vw;
+		min-height: 30vh;
+		/*pastel purple*/
+		background-color: #F4F6F8;
+		border-radius: 20px;
+		/*darker grey*/
+		color: #9F9F9F;
+	}
+}
+@media screen and (min-width: 426px) {
+	.intro {
+		font-family: Poppins, Sans-serif;
+		font-size: 1em;
+		font-weight: 600;
+		letter-spacing: 0px;
+		color: #000000;
+		opacity: 1;
+		margin-bottom: 5vh;
+		width: 40vw;
+	}
+	.buttons {
+		width: 40vw;
+	}
+	.buttonz {
+		color: #FFF;
+		font-family: Poppins, sans-serif;
+		font-size: 1em;
+		width: 19vw;
+		float: left;
+		padding: 10px;
+		margin-bottom: 1vh;
+		border: 0;
+		/*grey*/
+		background-color: #C3B1E1;
+		border-radius: 10px
+	}
+	.main {
+		margin-top: 5vh;
+		margin-bottom: 5vh;
+		width: 40vw;
+		min-height: 30vh;
+		/*pastel purple*/
+		background-color: #F4F6F8;
+		border-radius: 20px;
+		/*darker grey*/
+		color: #9F9F9F;
+	}
+}
+.buttonz:hover {
+	/*darker purple*/
+	background-color: #B59FDA;
+}
+.buttonz:nth-of-type(even) {
+	float: right;
+}
+.buttonz:nth-of-type(1), .buttonz:nth-of-type(2) {
+	margin-bottom: 5vh;
+}
+.data, .data1 {
+	font-size: 0.9em;
+	padding: 12px 20px;
+	display: flex;
+}
+.heading {
+	display: flex;
+	padding: 20px;
+	justify-content: space-between;
+	color: #000;
+}
